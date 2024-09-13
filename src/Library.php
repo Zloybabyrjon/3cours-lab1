@@ -33,7 +33,7 @@ class Library
             return $tempArray;
         }
     }
-    public function listAllBooks()
+    public function listAllBooks(): void
     {
         for ($i = 0; $i < count($this->books); $i++) {
             print($this->books[$i]->getBookInfo());
