@@ -1,0 +1,16 @@
+{
+    "name": "egor/lab1",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Egor\\Lab1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kazakov Egor",
+            "email": "egortumanov812@gmail.com"
+        }
+    ],
+    "require": {}
+}
